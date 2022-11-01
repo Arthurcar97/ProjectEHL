@@ -1,0 +1,95 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Teko', sans-serif;
+}
+
+h2{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#profile-pic{
+    width: 200px;
+    border-radius: 50%;
+    }
+
+#discogs{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 32px;
+    background-color: black;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+}
+
+
+#logo{
+    text-decoration: none;
+    padding: 0px 1px;
+    border-radius: 2px;
+    margin: 32px;
+    background-color: blck;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    border: 3px white;
+    margin: 32px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(255, 255, 255, 0.5);
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.fa-brands {
+    font-size: 40px;
+}
+@media (max-width: 760px) {
+
+.container{
+    width: 500px;
+}
+
+}
+
+@media(max-width: 500px){
+    .container{
+        width: 400px;
+    }
+}
+
+#discogs:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 3px black solid;
+}
